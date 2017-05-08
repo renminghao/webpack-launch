@@ -14,7 +14,8 @@ const app = new webpackDev(compaire, {
 			colors:true,
 			process : true
 	},
-  headers : {'X-Custom-Header' : 'yes'}
+  headers : {'X-Custom-Header' : 'yes'},
+  disableHostCheck : true
 })
 
 app.listen(80, function (err) {
