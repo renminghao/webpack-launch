@@ -1,2 +1,2 @@
-# webpack-launch
-webpack脚手架
+# <%NAME%>
+<%NAME%>
