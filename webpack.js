@@ -25,14 +25,14 @@ module.exports = {
     },
     {
       test : /\.less$/,
-      loaders : ['style-loader','css-loader','less-loader']
+      loaders : ['style-loader','css-loader','postcss-loader','less-loader']
     },
     {
       test : /\.json/,
       loader: 'json-loader!strip-json-comments'
     },
     {
-      test:/.(png)|(jpg)$/, 
+      test:/.(png)|(jpg)$/,
       loader: "url-loader?limit=50000"
     }]
   },
