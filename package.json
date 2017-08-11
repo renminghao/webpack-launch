@@ -1,6 +1,6 @@
 {
-  "name": "webpack",
-  "version": "1.0.0",
+  "name": "<%NAME%>",
+  "version": "<%VERSION%>",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "sudo node serve.js",
@@ -8,7 +8,7 @@
     "eslint": "eslint lib/**/*.js --debug --fix",
     "watch": "webpack --config webpack.js --watch"
   },
-  "author": "",
+  "author": "<%AUTHOR%>",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
