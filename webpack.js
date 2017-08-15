@@ -12,7 +12,7 @@ module.exports = {
     path : path.join(process.cwd(),'/dist'),
     publicPath : '/static/',
     libraryTarget : 'umd',
-    library : 'webpack'
+    library : '<%NAME%>'
   },
   externals : {
     'react' : {
